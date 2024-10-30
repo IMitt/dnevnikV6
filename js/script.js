@@ -965,11 +965,11 @@ function goToMain() {
   mainSection.style.display = "flex";
   sessionStorage.setItem("nowSection", ".main-section");
   document.querySelectorAll(".footer__btn-1")[0].style.backgroundImage =
-    "url(../img/menuActive.svg)";
+    "url(img/menuActive.svg)";
   document.querySelectorAll(".footer__btn-2")[0].style.backgroundImage =
-    "url(../img/status.svg)";
+    "url(img/status.svg)";
   document.querySelectorAll(".footer__btn-3")[0].style.backgroundImage =
-    "url(../img/profile.svg)";
+    "url(img/profile.svg)";
 }
 
 function goToStatus() {
@@ -992,14 +992,12 @@ function goToProfile() {
   ).style.display = "none";
   profileSection.style.display = "flex";
   sessionStorage.setItem("nowSection", ".profile-section");
-  document.querySelector(".footer__btn-1").style.backgroundImage =
-    "url(../img/menu.svg)";
   document.querySelectorAll(".footer__btn-1")[2].style.backgroundImage =
-    "url(../img/menu.svg)";
+    "url(img/menu.svg)";
   document.querySelectorAll(".footer__btn-2")[2].style.backgroundImage =
-    "url(../img/status.svg)";
+    "url(img/status.svg)";
   document.querySelectorAll(".footer__btn-3")[2].style.backgroundImage =
-    "url(../img/profileActive.svg)";
+    "url(img/profileActive.svg)";
 }
 
 let workoutPlans = [
