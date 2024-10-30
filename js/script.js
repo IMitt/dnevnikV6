@@ -979,11 +979,11 @@ function goToStatus() {
   statusSection.style.display = "flex";
   sessionStorage.setItem("nowSection", ".status-section");
   document.querySelectorAll(".footer__btn-1")[1].style.backgroundImage =
-    "url(../img/menu.svg)";
+    "url(img/menu.svg)";
   document.querySelectorAll(".footer__btn-2")[1].style.backgroundImage =
-    "url(../img/statusActive.svg)";
+    "url(img/statusActive.svg)";
   document.querySelectorAll(".footer__btn-3")[1].style.backgroundImage =
-    "url(../img/profile.svg)";
+    "url(img/profile.svg)";
 }
 
 function goToProfile() {
